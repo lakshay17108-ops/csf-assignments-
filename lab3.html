@@ -1,0 +1,113 @@
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Lakshay — Portfolio</title>
+      <link rel="stylesheet" href="lab2.css">
+      <meta name="description" content="Portfolio of Lakshay — web development student" />
+    </head>
+    <body>
+      <header class="site-header">
+        <div class="header-inner container">
+          <a class="logo" href="#">My Portfolio</a>
+          <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+              <li><a href="#About-Me">About</a></li>
+              <li><a href="#Technical-Skills">Skills</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Contact-Me">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero-left">
+              <h1>Hi, I am</h1>
+              <div class="hero-title">Full Stack Developer</div>
+              <p class="lead">Building modern web applications with MERN stack.</p>
+            </div>
+            <div class="hero-right">
+              
+                <img src="portfolio/images/profile.jpg" alt="Portrait of Lakshay" height="200px" width="150px"/>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="About-Me" >
+          <div class="container about-grid">
+            <div>
+              <h2>About Me</h2>
+              <p>
+                Hello! My name is Lakshay. I am currently learning web development. This is my portfolio website where I showcase my passion for creating interactive and responsive web pages.
+              </p>
+            </div>
+            <div class="profile-image">
+            </div>
+          </div>
+        </section>
+
+        <section id="Technical-Skills" class="reveal">
+          <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-list">
+              <div class="skill"><strong>HTML</strong></div>
+              <div class="skill"><strong>CSS</strong></div>
+              <div class="skill"><strong>JavaScript</strong></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="Projects" class="reveal">
+          <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h3>Project 1</h3>
+                <p>A simple HTML & CSS webpage.</p>
+              </article>
+              <article class="project-card">
+                <h3>Project 2</h3>
+                <p>Another awesome mini project.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="Contact-Me" class="reveal">
+          <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-card" id="contactForm" novalidate>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Enter your name" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Enter your email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message" rows="4" required></textarea>
+
+              <div style="text-align:center;margin-top:10px">
+                <button type="submit" class="btn">Send</button>
+              </div>
+              <p id="formMessage" style="text-align:center;margin-top:8px;color:#7c3aed"></p>
+            </form>
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="footer-bar">&copy; 2025 Lakshay. All rights reserved.</div>
+        
+      </footer>
+
+      
+    </body>
+  </html>
