@@ -1,0 +1,15 @@
+Project Overview
+This project is a Portfolio Webpage built with HTML and CSS. It showcases my profile, skills, and projects in a clean and professional format. The repo is hosted on GitHub (csf-assignment) and developed using VS Code with Git for version control.
+
+Development Process
+ Created a GitHub repo and initialized Git locally.
+ Built webpage structure in index.html and styled with style.css.
+ Tested in browser using VS Code.
+ Used Git commands (add, commit, push) to upload changes.
+ Added .gitignore, README.md, and a docs/ folder for documentation.
+
+Future Improvements
+ Make the webpage responsive for mobile devices.
+ Add JavaScript for interactivity (dark mode, animations).
+ Deploy using GitHub Pages for public access.
+ Expand content with more projects and achievements.
